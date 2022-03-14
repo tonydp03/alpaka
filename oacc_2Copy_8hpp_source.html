@@ -427,54 +427,54 @@ $(document).ready(function(){initNavTree('oacc_2Copy_8hpp_source.html',''); init
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160; </div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#    if _OPENACC &gt;= 201510 &amp;&amp; (!defined __GNUC__)</span></div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                <span class="comment">// acc_memcpy_device is only available since OpenACC2.5, but we want the tests to compile anyway</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst).m_spDevOaccImpl-&gt;getNativeHandle()</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                   == <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewSrc).m_spDevOaccImpl-&gt;getNativeHandle())</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                {</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                    <span class="keywordflow">return</span> alpaka::oacc::detail::</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                        makeTaskCopyOacc&lt;alpaka::oacc::detail::TaskCopyOacc, TDim, TViewDst, TViewSrc, TExtent&gt;(</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                            viewDst,</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                            viewSrc,</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                            extent,</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                            <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst),</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                            acc_memcpy_device);</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                }</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">#    endif</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                {</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                    <span class="keywordflow">return</span> alpaka::oacc::detail::</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                        makeTaskCopyOacc&lt;alpaka::oacc::detail::TaskCopyOacc, TDim, TViewDst, TViewSrc, TExtent&gt;(</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                            viewDst,</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;                            viewSrc,</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                            extent,</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                            <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst),</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                            [devSrc = <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewSrc),</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                             devDst = <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst)](<span class="keywordtype">void</span>* dst, <span class="keywordtype">void</span>* src, std::size_t <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>)</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                            {</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                std::unique_ptr&lt;void, decltype(&amp;<a class="code" href="namespacealpaka_1_1core.html#a37ee6854f4b95a55572f293d23d1d6fc">core::alignedFree</a>)&gt; buf(</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                                    <a class="code" href="namespacealpaka_1_1core.html#aac97800a3823af1fc97594e29b6677ab">core::alignedAlloc</a>(<a class="code" href="namespacealpaka_1_1core_1_1vectorization.html#a2d12f7e6f724f279a7baf91a5d3b40be">core::vectorization::defaultAlignment</a>, <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>),</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                                    &amp;<a class="code" href="namespacealpaka_1_1core.html#a37ee6854f4b95a55572f293d23d1d6fc">core::alignedFree</a>);</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                devSrc.makeCurrent();</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                                acc_memcpy_from_device(buf.get(), src, <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                                devDst.makeCurrent();</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                                acc_memcpy_to_device(dst, buf.get(), <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>);</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                            });</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                }</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            }</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        };</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    } <span class="comment">// namespace traits</span></div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;} <span class="comment">// namespace alpaka</span></div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst).<a class="code" href="namespacealpaka.html#aa56ad4ba3f41bcea4e804b88d05c9ac0">getNativeHandle</a>() == <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewSrc).<a class="code" href="namespacealpaka.html#aa56ad4ba3f41bcea4e804b88d05c9ac0">getNativeHandle</a>())</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                    <span class="keywordflow">return</span> alpaka::oacc::detail::</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                        makeTaskCopyOacc&lt;alpaka::oacc::detail::TaskCopyOacc, TDim, TViewDst, TViewSrc, TExtent&gt;(</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                            viewDst,</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                            viewSrc,</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                            extent,</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                            <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst),</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                            acc_memcpy_device);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                }</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor">#    endif</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                    <span class="keywordflow">return</span> alpaka::oacc::detail::</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                        makeTaskCopyOacc&lt;alpaka::oacc::detail::TaskCopyOacc, TDim, TViewDst, TViewSrc, TExtent&gt;(</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                            viewDst,</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                            viewSrc,</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;                            extent,</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                            <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst),</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                            [devSrc = <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewSrc),</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                             devDst = <a class="code" href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">getDev</a>(viewDst)](<span class="keywordtype">void</span>* dst, <span class="keywordtype">void</span>* src, std::size_t <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>)</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                            {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                                std::unique_ptr&lt;void, decltype(&amp;<a class="code" href="namespacealpaka_1_1core.html#a37ee6854f4b95a55572f293d23d1d6fc">core::alignedFree</a>)&gt; buf(</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                    <a class="code" href="namespacealpaka_1_1core.html#aac97800a3823af1fc97594e29b6677ab">core::alignedAlloc</a>(<a class="code" href="namespacealpaka_1_1core_1_1vectorization.html#a2d12f7e6f724f279a7baf91a5d3b40be">core::vectorization::defaultAlignment</a>, <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>),</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                                    &amp;<a class="code" href="namespacealpaka_1_1core.html#a37ee6854f4b95a55572f293d23d1d6fc">core::alignedFree</a>);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                                devSrc.makeCurrent();</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                acc_memcpy_from_device(buf.get(), src, <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                                devDst.makeCurrent();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                                acc_memcpy_to_device(dst, buf.get(), <a class="code" href="namespaceutility_1_1tuple.html#a3ee33aa9c095eefbb760200218a320fc">size</a>);</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                            });</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        };</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    } <span class="comment">// namespace traits</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;} <span class="comment">// namespace alpaka</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160; </div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aVectorize_8hpp_html"><div class="ttname"><a href="Vectorize_8hpp.html">Vectorize.hpp</a></div></div>
 <div class="ttc" id="anamespacealpaka_html_ac486a72c51166125fb227c7af1884209"><div class="ttname"><a href="namespacealpaka.html#ac486a72c51166125fb227c7af1884209">alpaka::DimInt</a></div><div class="ttdeci">std::integral_constant&lt; std::size_t, N &gt; DimInt</div><div class="ttdef"><b>Definition:</b> <a href="DimIntegralConst_8hpp_source.html#l00020">DimIntegralConst.hpp:20</a></div></div>
 <div class="ttc" id="aDebug_8hpp_html_ac65b6c44ec8afefe76a919847dd5ccec"><div class="ttname"><a href="Debug_8hpp.html#ac65b6c44ec8afefe76a919847dd5ccec">ALPAKA_DEBUG_FULL_LOG_SCOPE</a></div><div class="ttdeci">#define ALPAKA_DEBUG_FULL_LOG_SCOPE</div><div class="ttdef"><b>Definition:</b> <a href="Debug_8hpp_source.html#l00065">Debug.hpp:65</a></div></div>
-<div class="ttc" id="anamespacealpaka_html_afa7369abadff7e4f8afc89c526628e12"><div class="ttname"><a href="namespacealpaka.html#afa7369abadff7e4f8afc89c526628e12">alpaka::getExtentVec</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC constexpr auto getExtentVec(TExtent const &amp;extent={}) -&gt; Vec&lt; Dim&lt; TExtent &gt;, Idx&lt; TExtent &gt;&gt;</div><div class="ttdef"><b>Definition:</b> <a href="Vec_8hpp_source.html#l00535">Vec.hpp:535</a></div></div>
+<div class="ttc" id="anamespacealpaka_html_afa7369abadff7e4f8afc89c526628e12"><div class="ttname"><a href="namespacealpaka.html#afa7369abadff7e4f8afc89c526628e12">alpaka::getExtentVec</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC constexpr auto getExtentVec(TExtent const &amp;extent={}) -&gt; Vec&lt; Dim&lt; TExtent &gt;, Idx&lt; TExtent &gt;&gt;</div><div class="ttdef"><b>Definition:</b> <a href="Vec_8hpp_source.html#l00536">Vec.hpp:536</a></div></div>
 <div class="ttc" id="aIntegral_8hpp_html"><div class="ttname"><a href="Integral_8hpp.html">Integral.hpp</a></div></div>
 <div class="ttc" id="aAssert_8hpp_html_a328f757c64444f381ff6575f5caa54e8"><div class="ttname"><a href="Assert_8hpp.html#a328f757c64444f381ff6575f5caa54e8">ALPAKA_ASSERT</a></div><div class="ttdeci">#define ALPAKA_ASSERT(EXPRESSION)</div><div class="ttdef"><b>Definition:</b> <a href="Assert_8hpp_source.html#l00017">Assert.hpp:17</a></div></div>
 <div class="ttc" id="aDevCpu_8hpp_html"><div class="ttname"><a href="DevCpu_8hpp.html">DevCpu.hpp</a></div></div>
 <div class="ttc" id="aDevOacc_8hpp_html"><div class="ttname"><a href="DevOacc_8hpp.html">DevOacc.hpp</a></div></div>
+<div class="ttc" id="anamespacealpaka_html_aa56ad4ba3f41bcea4e804b88d05c9ac0"><div class="ttname"><a href="namespacealpaka.html#aa56ad4ba3f41bcea4e804b88d05c9ac0">alpaka::getNativeHandle</a></div><div class="ttdeci">ALPAKA_FN_HOST auto getNativeHandle(TImpl const &amp;impl)</div><div class="ttdoc">Get the native handle of the alpaka object. It will return the alpaka object handle if there is any,...</div><div class="ttdef"><b>Definition:</b> <a href="traits_2Traits_8hpp_source.html#l00034">Traits.hpp:34</a></div></div>
 <div class="ttc" id="anamespacealpaka_html_aa4fe5980725182b3306caf3167053a75"><div class="ttname"><a href="namespacealpaka.html#aa4fe5980725182b3306caf3167053a75">alpaka::getDev</a></div><div class="ttdeci">ALPAKA_FN_HOST auto getDev(T const &amp;t)</div><div class="ttdef"><b>Definition:</b> <a href="dev_2Traits_8hpp_source.html#l00059">Traits.hpp:59</a></div></div>
 <div class="ttc" id="aextent_2Traits_8hpp_html"><div class="ttname"><a href="extent_2Traits_8hpp.html">Traits.hpp</a></div></div>
 <div class="ttc" id="aAlignedAlloc_8hpp_html"><div class="ttname"><a href="AlignedAlloc_8hpp.html">AlignedAlloc.hpp</a></div></div>
@@ -502,7 +502,7 @@ $(document).ready(function(){initNavTree('oacc_2Copy_8hpp_source.html',''); init
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f712bff28b6ff1ff870a222047d04675.html">alpaka</a></li><li class="navelem"><a class="el" href="dir_fb1128c962bebe125e17152b21133100.html">mem</a></li><li class="navelem"><a class="el" href="dir_e9c63de0e8709741f56550be53020686.html">buf</a></li><li class="navelem"><a class="el" href="dir_6c93a0db3d8099b4c959509b1dc3473b.html">oacc</a></li><li class="navelem"><a class="el" href="oacc_2Copy_8hpp.html">Copy.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 9 2022 13:35:17 for alpaka by
+    <li class="footer">Generated on Mon Mar 14 2022 18:30:20 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
