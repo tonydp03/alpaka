@@ -1,4 +1,0 @@
-var structalpaka_1_1trait_1_1CurrentThreadWaitFor_3_01EventUniformCudaHipRt_3_01TApi_01_4_01_4 =
-[
-    [ "currentThreadWaitFor", "structalpaka_1_1trait_1_1CurrentThreadWaitFor_3_01EventUniformCudaHipRt_3_01TApi_01_4_01_4.html#acad41b1bd26b0988a3dd4ecb8eabb6f5", null ]
-];

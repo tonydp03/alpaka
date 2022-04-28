@@ -41,7 +41,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", "functions_type" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
@@ -63,23 +63,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"CpuTbbBlocks_8hpp.html#a8e980af207c9069aefb5cdcd1a6467e3",
-"OffloadUseBuiltInSharedMem_8hpp.html#a9704eeb726b281f9fc3c3c9f0f52dad0",
-"UniformCudaHip_8hpp.html#ac9873f7dc899a466c5648661e37bc682",
-"classalpaka_1_1IGenericThreadsQueue.html#a79362d9e87c0fb1adc99259cbca14f01",
-"classalpaka_1_1generic_1_1detail_1_1QueueGenericThreadsBlockingImpl.html#a2fd8e0401d2078fca727f434a3a4393f",
-"classalpaka_1_1test_1_1trait_1_1IteratorView.html#a1957c6f207f5877dc0aece0a51e3b3b2",
-"intrinsic_2Traits_8hpp.html#a67995b6d001811d321496aab52684356",
-"namespacemembers_g.html",
-"structalpaka_1_1core_1_1vectorization_1_1GetVectorizationSizeElems.html#a1e950bc9d4d06f41c74e0c430d8f2f84",
-"structalpaka_1_1experimental_1_1internal_1_1AccessReturnTypeImpl.html",
-"structalpaka_1_1meta_1_1CudaVectorArrayWrapper_3_01TScalar_00_013_01_4.html",
-"structalpaka_1_1test_1_1Array.html#a6cf2b8d9e5fbbb2ab22f6bb12e97893c",
-"structalpaka_1_1trait_1_1BufAlloc_3_01TElem_00_01DimInt_3_011u_01_4_00_01TIdx_00_01DevOmp5_01_4.html#a4b79e349fb291a715ef89d525abbac08",
-"structalpaka_1_1trait_1_1DimType_3_01gb_1_1IdxGbRef_3_01TDim_00_01TIdx_01_4_01_4.html",
-"structalpaka_1_1trait_1_1GetExtent_3_01DimInt_3_01Dim_3_01TExtent_01_4_1_1value_01-_011u_01_4_002c5479748c8a9190fed6961527b568f7.html",
-"structalpaka_1_1trait_1_1IsPinned_3_01alpaka_1_1detail_1_1BufCpuImpl_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a367c1339e18aa8cc156f9304207b21c0",
-"structalpaka_1_1warp_1_1trait_1_1All.html"
+"DevOmp5_8hpp.html#abbef4249dfcd6989eff6088e26bb911f",
+"QueueFpgaSyclIntelNonBlocking_8hpp.html",
+"acc_2Traits_8hpp_source.html",
+"classalpaka_1_1ViewPlainPtr.html#a0b6b3e7109483fc1ee554230f299b09e",
+"classalpaka_1_1rand_1_1Philox4x32x10Vector.html#a8a71c20821289af377e03333901a5179",
+"dir_978fff6d009a0eab698f51257fa3760a.html",
+"namespacealpaka_1_1core_1_1vectorization.html",
+"structalpaka_1_1concepts_1_1ImplementsConcept.html#a2d20969b814a4a787a48a138c3d4fe89",
+"structalpaka_1_1detail_1_1TaskSetUniformCudaHip_3_01DimInt_3_011u_01_4_00_01TView_00_01TExtent_01_4.html",
+"structalpaka_1_1meta_1_1CudaVectorArrayWrapper_3_01TScalar_00_014_01_4.html#a749dd3d42bbde76aab2525dfbc4211e8",
+"structalpaka_1_1test_1_1QueueTestFixture.html#a31498dfa654e0b1798e8c371c1ff3f31",
+"structalpaka_1_1trait_1_1BufType.html",
+"structalpaka_1_1trait_1_1DimType_3_01std_1_1array_3_01TElem_00_01Tsize_01_4_01_4.html#a0dd74c7f7746a8cdecb127149967600e",
+"structalpaka_1_1trait_1_1GetExtent_3_01DimInt_3_01Dim_3_01TExtent_01_4_1_1value_01-_014u_01_4_00f61d80e1893e99f751b04a7bd1a4240c.html",
+"structalpaka_1_1trait_1_1Malloc.html",
+"structalpaka_1_1warp_1_1trait_1_1All_3_01WarpUniformCudaHipBuiltIn_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
