@@ -175,9 +175,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1AccDevProps.html">AccDevProps</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The acceleration properties on a device.  <a href="structalpaka_1_1AccDevProps.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1AccGpuCudaRt.html">AccGpuCudaRt</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GPU CUDA accelerator.  <a href="classalpaka_1_1AccGpuCudaRt.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1AccGpuUniformCudaHipRt.html">AccGpuUniformCudaHipRt</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GPU CUDA accelerator.  <a href="classalpaka_1_1AccGpuUniformCudaHipRt.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,6 +186,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1AllocCpuNew.html">AllocCpuNew</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CPU new allocator.  <a href="classalpaka_1_1AllocCpuNew.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1AtomicAdd.html">AtomicAdd</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The addition function object.  <a href="structalpaka_1_1AtomicAdd.html#details">More...</a><br /></td></tr>
@@ -292,6 +291,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html">BufUniformCudaHipRt</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA/HIP memory buffer.  <a href="classalpaka_1_1BufUniformCudaHipRt.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1Complex.html">Complex</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of a complex number useable on host and device.  <a href="classalpaka_1_1Complex.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1ConceptAcc.html">ConceptAcc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -456,6 +458,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae3a0f745fcf8e6ac0125e5ba7911e11a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ae3a0f745fcf8e6ac0125e5ba7911e11a">Acc</a> = typename <a class="el" href="structalpaka_1_1trait_1_1AccType.html">trait::AccType</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:ae3a0f745fcf8e6ac0125e5ba7911e11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accelerator type trait alias template to remove the ::type.  <a href="namespacealpaka.html#ae3a0f745fcf8e6ac0125e5ba7911e11a">More...</a><br /></td></tr>
 <tr class="separator:ae3a0f745fcf8e6ac0125e5ba7911e11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41d3de7aa83e26273d7f08f8e76fe1d"><td class="memTemplParams" colspan="2">template&lt;typename TDim , typename TIdx &gt; </td></tr>
+<tr class="memitem:ac41d3de7aa83e26273d7f08f8e76fe1d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ac41d3de7aa83e26273d7f08f8e76fe1d">AccGpuCudaRt</a> = <a class="el" href="classalpaka_1_1AccGpuUniformCudaHipRt.html">AccGpuUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TDim, TIdx &gt;</td></tr>
+<tr class="separator:ac41d3de7aa83e26273d7f08f8e76fe1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bad0e6d480fa2fafe60330f304067b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a0bad0e6d480fa2fafe60330f304067b5">AtomicCpu</a> = <a class="el" href="classalpaka_1_1AtomicStdLibLock.html">AtomicStdLibLock</a>&lt; 16 &gt;</td></tr>
 <tr class="separator:a0bad0e6d480fa2fafe60330f304067b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe27c0dad6ddd453657dee8f0bb343ff"><td class="memTemplParams" colspan="2">template&lt;typename TGridAtomic , typename TBlockAtomic , typename TThreadAtomic &gt; </td></tr>
@@ -469,15 +474,16 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac9381e9159626b8969f257249c4c9386"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ac9381e9159626b8969f257249c4c9386">Buf</a> = typename <a class="el" href="structalpaka_1_1trait_1_1BufType.html">trait::BufType</a>&lt; <a class="el" href="namespacealpaka.html#a32355d5c313b0846505aeaf5d42484be">alpaka::Dev</a>&lt; TDev &gt;, TElem, TDim, TIdx &gt;::type</td></tr>
 <tr class="memdesc:ac9381e9159626b8969f257249c4c9386"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memory buffer type trait alias template to remove the ::type.  <a href="namespacealpaka.html#ac9381e9159626b8969f257249c4c9386">More...</a><br /></td></tr>
 <tr class="separator:ac9381e9159626b8969f257249c4c9386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d0a0cf839acc949da9fcf4d05571ad4"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TDim , typename TIdx &gt; </td></tr>
-<tr class="memitem:a9d0a0cf839acc949da9fcf4d05571ad4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a9d0a0cf839acc949da9fcf4d05571ad4">BufCudaRt</a> = <a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html">BufUniformCudaHipRt</a>&lt; TElem, TDim, TIdx &gt;</td></tr>
-<tr class="separator:a9d0a0cf839acc949da9fcf4d05571ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4501d6cc83b94366a4a141ed1b504b8"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TDim , typename TIdx &gt; </td></tr>
+<tr class="memitem:ae4501d6cc83b94366a4a141ed1b504b8"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ae4501d6cc83b94366a4a141ed1b504b8">BufCudaRt</a> = <a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html">BufUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TElem, TDim, TIdx &gt;</td></tr>
+<tr class="separator:ae4501d6cc83b94366a4a141ed1b504b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32355d5c313b0846505aeaf5d42484be"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a32355d5c313b0846505aeaf5d42484be"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a32355d5c313b0846505aeaf5d42484be">Dev</a> = typename <a class="el" href="structalpaka_1_1trait_1_1DevType.html">trait::DevType</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:a32355d5c313b0846505aeaf5d42484be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device type trait alias template to remove the ::type.  <a href="namespacealpaka.html#a32355d5c313b0846505aeaf5d42484be">More...</a><br /></td></tr>
 <tr class="separator:a32355d5c313b0846505aeaf5d42484be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e85e5b3182910ce26538c4f4b1d9fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a28e85e5b3182910ce26538c4f4b1d9fd">DevCudaRt</a> = <a class="el" href="classalpaka_1_1DevUniformCudaHipRt.html">DevUniformCudaHipRt</a></td></tr>
-<tr class="separator:a28e85e5b3182910ce26538c4f4b1d9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dab48915b0cb9623165d122b33dd103"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a8dab48915b0cb9623165d122b33dd103">DevCudaRt</a> = <a class="el" href="classalpaka_1_1DevUniformCudaHipRt.html">DevUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a> &gt;</td></tr>
+<tr class="memdesc:a8dab48915b0cb9623165d122b33dd103"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA RT device handle.  <a href="namespacealpaka.html#a8dab48915b0cb9623165d122b33dd103">More...</a><br /></td></tr>
+<tr class="separator:a8dab48915b0cb9623165d122b33dd103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee3fb80b82e8f3e9601195afb0b8c34c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aee3fb80b82e8f3e9601195afb0b8c34c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#aee3fb80b82e8f3e9601195afb0b8c34c">Dim</a> = typename <a class="el" href="structalpaka_1_1trait_1_1DimType.html">trait::DimType</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:aee3fb80b82e8f3e9601195afb0b8c34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The dimension type trait alias template to remove the ::type.  <a href="namespacealpaka.html#aee3fb80b82e8f3e9601195afb0b8c34c">More...</a><br /></td></tr>
@@ -495,12 +501,13 @@ Typedefs</h2></td></tr>
 <tr class="separator:a097911074293c18d5a37aac3266f9a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc8723b925f6ddf8b27631b71a7c22c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#acc8723b925f6ddf8b27631b71a7c22c6">EventCpu</a> = <a class="el" href="classalpaka_1_1EventGenericThreads.html">EventGenericThreads</a>&lt; <a class="el" href="classalpaka_1_1DevCpu.html">DevCpu</a> &gt;</td></tr>
 <tr class="separator:acc8723b925f6ddf8b27631b71a7c22c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f508034ba4e3b4079efd7e3dfb9838b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a6f508034ba4e3b4079efd7e3dfb9838b">EventCudaRt</a> = <a class="el" href="classalpaka_1_1EventUniformCudaHipRt.html">EventUniformCudaHipRt</a></td></tr>
-<tr class="separator:a6f508034ba4e3b4079efd7e3dfb9838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad78249cee4204531842783fbc021c9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a5ad78249cee4204531842783fbc021c9">EventCudaRt</a> = <a class="el" href="classalpaka_1_1EventUniformCudaHipRt.html">EventUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a> &gt;</td></tr>
+<tr class="memdesc:a5ad78249cee4204531842783fbc021c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA RT device event.  <a href="namespacealpaka.html#a5ad78249cee4204531842783fbc021c9">More...</a><br /></td></tr>
+<tr class="separator:a5ad78249cee4204531842783fbc021c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0173206e98595f605bffe9a6198da754"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a0173206e98595f605bffe9a6198da754">EventOmp5</a> = <a class="el" href="classalpaka_1_1EventGenericThreads.html">EventGenericThreads</a>&lt; <a class="el" href="classalpaka_1_1DevOmp5.html">DevOmp5</a> &gt;</td></tr>
 <tr class="separator:a0173206e98595f605bffe9a6198da754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aec9660f2a0dd2e01db1edd34e4cafa"><td class="memTemplParams" colspan="2">template&lt;class TDim , class TIdx &gt; </td></tr>
-<tr class="memitem:a8aec9660f2a0dd2e01db1edd34e4cafa"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a8aec9660f2a0dd2e01db1edd34e4cafa">ExampleDefaultAcc</a> = <a class="el" href="classalpaka_1_1AccGpuCudaRt.html">alpaka::AccGpuCudaRt</a>&lt; TDim, TIdx &gt;</td></tr>
+<tr class="memitem:a8aec9660f2a0dd2e01db1edd34e4cafa"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a8aec9660f2a0dd2e01db1edd34e4cafa">ExampleDefaultAcc</a> = <a class="el" href="namespacealpaka.html#ac41d3de7aa83e26273d7f08f8e76fe1d">alpaka::AccGpuCudaRt</a>&lt; TDim, TIdx &gt;</td></tr>
 <tr class="memdesc:a8aec9660f2a0dd2e01db1edd34e4cafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the default accelerator used by examples. From a list of all accelerators the first one which is enabled is chosen. <a class="el" href="classalpaka_1_1AccCpuSerial.html" title="The CPU serial accelerator.">AccCpuSerial</a> is selected last.  <a href="namespacealpaka.html#a8aec9660f2a0dd2e01db1edd34e4cafa">More...</a><br /></td></tr>
 <tr class="separator:a8aec9660f2a0dd2e01db1edd34e4cafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0163f6f6c406d381013f117fdbe7ef70"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -516,8 +523,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a6b83bc07c7ca78824c9b5026f951cff4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a6b83bc07c7ca78824c9b5026f951cff4">Pltf</a> = typename <a class="el" href="structalpaka_1_1trait_1_1PltfType.html">trait::PltfType</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:a6b83bc07c7ca78824c9b5026f951cff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The platform type trait alias template to remove the ::type.  <a href="namespacealpaka.html#a6b83bc07c7ca78824c9b5026f951cff4">More...</a><br /></td></tr>
 <tr class="separator:a6b83bc07c7ca78824c9b5026f951cff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11c8a88607a57558a48b2f279bbec545"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a11c8a88607a57558a48b2f279bbec545">PltfCudaRt</a> = <a class="el" href="classalpaka_1_1PltfUniformCudaHipRt.html">PltfUniformCudaHipRt</a></td></tr>
-<tr class="separator:a11c8a88607a57558a48b2f279bbec545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da3c226528d12baea2581aaa6fb9cd5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a2da3c226528d12baea2581aaa6fb9cd5">PltfCudaRt</a> = <a class="el" href="classalpaka_1_1PltfUniformCudaHipRt.html">PltfUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a> &gt;</td></tr>
+<tr class="memdesc:a2da3c226528d12baea2581aaa6fb9cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA RT platform.  <a href="namespacealpaka.html#a2da3c226528d12baea2581aaa6fb9cd5">More...</a><br /></td></tr>
+<tr class="separator:a2da3c226528d12baea2581aaa6fb9cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a2fa6435cfd735679b6c5f1ac7561aa"><td class="memTemplParams" colspan="2">template&lt;typename TEnv , typename TProperty &gt; </td></tr>
 <tr class="memitem:a0a2fa6435cfd735679b6c5f1ac7561aa"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a0a2fa6435cfd735679b6c5f1ac7561aa">Queue</a> = typename <a class="el" href="structalpaka_1_1trait_1_1QueueType.html">trait::QueueType</a>&lt; TEnv, TProperty &gt;::type</td></tr>
 <tr class="memdesc:a0a2fa6435cfd735679b6c5f1ac7561aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue based on the environment and a property.  <a href="namespacealpaka.html#a0a2fa6435cfd735679b6c5f1ac7561aa">More...</a><br /></td></tr>
@@ -526,24 +534,31 @@ Typedefs</h2></td></tr>
 <tr class="separator:a5b74cbab627401664d95c8a91c859a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a11334697bff8a6fb14559535908633"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a8a11334697bff8a6fb14559535908633">QueueCpuNonBlocking</a> = <a class="el" href="classalpaka_1_1QueueGenericThreadsNonBlocking.html">QueueGenericThreadsNonBlocking</a>&lt; <a class="el" href="classalpaka_1_1DevCpu.html">DevCpu</a> &gt;</td></tr>
 <tr class="separator:a8a11334697bff8a6fb14559535908633"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a311549e8bc3033e0f1387da53b6f4618"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a311549e8bc3033e0f1387da53b6f4618">QueueCudaRtBlocking</a> = <a class="el" href="namespacealpaka.html#ab0b41862622ca0a42306953f270fa055">QueueUniformCudaHipRtBlocking</a></td></tr>
-<tr class="separator:a311549e8bc3033e0f1387da53b6f4618"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebad4c35c3d61402485ed3c4524298db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#aebad4c35c3d61402485ed3c4524298db">QueueCudaRtNonBlocking</a> = <a class="el" href="namespacealpaka.html#abb9a658a30c53026d7fb363509f6891a">QueueUniformCudaHipRtNonBlocking</a></td></tr>
-<tr class="separator:aebad4c35c3d61402485ed3c4524298db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8b3978a69f4844792b91f2632ea66f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a2e8b3978a69f4844792b91f2632ea66f">QueueCudaRtBlocking</a> = <a class="el" href="namespacealpaka.html#a13646f485ddbe5f1809a3d24f77429eb">QueueUniformCudaHipRtBlocking</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a> &gt;</td></tr>
+<tr class="memdesc:a2e8b3978a69f4844792b91f2632ea66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA RT blocking queue.  <a href="namespacealpaka.html#a2e8b3978a69f4844792b91f2632ea66f">More...</a><br /></td></tr>
+<tr class="separator:a2e8b3978a69f4844792b91f2632ea66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b1d2362f1b9fc854fc0ba4008c85e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ab1b1d2362f1b9fc854fc0ba4008c85e4">QueueCudaRtNonBlocking</a> = <a class="el" href="namespacealpaka.html#af493861b6c8c71c887690654c4943238">QueueUniformCudaHipRtNonBlocking</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a> &gt;</td></tr>
+<tr class="memdesc:ab1b1d2362f1b9fc854fc0ba4008c85e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA RT non-blocking queue.  <a href="namespacealpaka.html#ab1b1d2362f1b9fc854fc0ba4008c85e4">More...</a><br /></td></tr>
+<tr class="separator:ab1b1d2362f1b9fc854fc0ba4008c85e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbef4249dfcd6989eff6088e26bb911f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#abbef4249dfcd6989eff6088e26bb911f">QueueOmp5Blocking</a> = <a class="el" href="classalpaka_1_1QueueGenericThreadsBlocking.html">QueueGenericThreadsBlocking</a>&lt; <a class="el" href="classalpaka_1_1DevOmp5.html">DevOmp5</a> &gt;</td></tr>
 <tr class="separator:abbef4249dfcd6989eff6088e26bb911f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1994bcdaa7cefe3ae066eb3033530826"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a1994bcdaa7cefe3ae066eb3033530826">QueueOmp5NonBlocking</a> = <a class="el" href="classalpaka_1_1QueueGenericThreadsNonBlocking.html">QueueGenericThreadsNonBlocking</a>&lt; <a class="el" href="classalpaka_1_1DevOmp5.html">DevOmp5</a> &gt;</td></tr>
 <tr class="separator:a1994bcdaa7cefe3ae066eb3033530826"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b41862622ca0a42306953f270fa055"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ab0b41862622ca0a42306953f270fa055">QueueUniformCudaHipRtBlocking</a> = <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; true &gt;</td></tr>
-<tr class="memdesc:ab0b41862622ca0a42306953f270fa055"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA/HIP RT blocking queue.  <a href="namespacealpaka.html#ab0b41862622ca0a42306953f270fa055">More...</a><br /></td></tr>
-<tr class="separator:ab0b41862622ca0a42306953f270fa055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9a658a30c53026d7fb363509f6891a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#abb9a658a30c53026d7fb363509f6891a">QueueUniformCudaHipRtNonBlocking</a> = <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; false &gt;</td></tr>
-<tr class="memdesc:abb9a658a30c53026d7fb363509f6891a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA/HIP RT blocking queue.  <a href="namespacealpaka.html#abb9a658a30c53026d7fb363509f6891a">More...</a><br /></td></tr>
-<tr class="separator:abb9a658a30c53026d7fb363509f6891a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13646f485ddbe5f1809a3d24f77429eb"><td class="memTemplParams" colspan="2">template&lt;typename TApi &gt; </td></tr>
+<tr class="memitem:a13646f485ddbe5f1809a3d24f77429eb"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a13646f485ddbe5f1809a3d24f77429eb">QueueUniformCudaHipRtBlocking</a> = <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; TApi, true &gt;</td></tr>
+<tr class="memdesc:a13646f485ddbe5f1809a3d24f77429eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA/HIP RT blocking queue.  <a href="namespacealpaka.html#a13646f485ddbe5f1809a3d24f77429eb">More...</a><br /></td></tr>
+<tr class="separator:a13646f485ddbe5f1809a3d24f77429eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af493861b6c8c71c887690654c4943238"><td class="memTemplParams" colspan="2">template&lt;typename TApi &gt; </td></tr>
+<tr class="memitem:af493861b6c8c71c887690654c4943238"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#af493861b6c8c71c887690654c4943238">QueueUniformCudaHipRtNonBlocking</a> = <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; TApi, false &gt;</td></tr>
+<tr class="memdesc:af493861b6c8c71c887690654c4943238"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CUDA/HIP RT non-blocking queue.  <a href="namespacealpaka.html#af493861b6c8c71c887690654c4943238">More...</a><br /></td></tr>
+<tr class="separator:af493861b6c8c71c887690654c4943238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78675a272ead29bbbf706b20727fa209"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a78675a272ead29bbbf706b20727fa209"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a78675a272ead29bbbf706b20727fa209">remove_restrict_t</a> = typename <a class="el" href="structalpaka_1_1remove__restrict.html">remove_restrict</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:a78675a272ead29bbbf706b20727fa209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to remove <b>restrict</b> from a type.  <a href="namespacealpaka.html#a78675a272ead29bbbf706b20727fa209">More...</a><br /></td></tr>
 <tr class="separator:a78675a272ead29bbbf706b20727fa209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48aeb76936551ea2dc5c4fe4759eb35"><td class="memTemplParams" colspan="2">template&lt;typename TAcc , typename TDim , typename TIdx , typename TKernelFnObj , typename... TArgs&gt; </td></tr>
+<tr class="memitem:aa48aeb76936551ea2dc5c4fe4759eb35"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#aa48aeb76936551ea2dc5c4fe4759eb35">TaskKernelGpuCudaRt</a> = <a class="el" href="classalpaka_1_1TaskKernelGpuUniformCudaHipRt.html">TaskKernelGpuUniformCudaHipRt</a>&lt; <a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TAcc, TDim, TIdx, TKernelFnObj, TArgs... &gt;</td></tr>
+<tr class="separator:aa48aeb76936551ea2dc5c4fe4759eb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -568,6 +583,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a7ff762720c64dc454a53faa6622c227d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a7ff762720c64dc454a53faa6622c227d">allocBuf</a> (TDev const &amp;dev, TExtent const &amp;extent=TExtent())</td></tr>
 <tr class="memdesc:a7ff762720c64dc454a53faa6622c227d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory on the given device.  <a href="namespacealpaka.html#a7ff762720c64dc454a53faa6622c227d">More...</a><br /></td></tr>
 <tr class="separator:a7ff762720c64dc454a53faa6622c227d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454ad163b8d81f6459c62f913a2202ef"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIdx , typename TExtent , typename TDev &gt; </td></tr>
+<tr class="memitem:a454ad163b8d81f6459c62f913a2202ef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a454ad163b8d81f6459c62f913a2202ef">allocMappedBuf</a> (<a class="el" href="classalpaka_1_1DevCpu.html">DevCpu</a> const &amp;host, TDev const &amp;dev, TExtent const &amp;extent=TExtent())</td></tr>
+<tr class="memdesc:a454ad163b8d81f6459c62f913a2202ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates pinned/mapped memory on host, accessible by the given device.  <a href="namespacealpaka.html#a454ad163b8d81f6459c62f913a2202ef">More...</a><br /></td></tr>
+<tr class="separator:a454ad163b8d81f6459c62f913a2202ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8d44ae90fcfe2fdb973c49542fd0db5"><td class="memTemplParams" colspan="2">template&lt;typename TAtomic , typename T , typename THierarchy  = hierarchy::Grids&gt; </td></tr>
 <tr class="memitem:ac8d44ae90fcfe2fdb973c49542fd0db5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ac8d44ae90fcfe2fdb973c49542fd0db5">atomicAdd</a> (TAtomic const &amp;atomic, T *const addr, T const &amp;value, THierarchy const &amp;hier=THierarchy()) -&gt; T</td></tr>
 <tr class="memdesc:ac8d44ae90fcfe2fdb973c49542fd0db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes an atomic add operation.  <a href="namespacealpaka.html#ac8d44ae90fcfe2fdb973c49542fd0db5">More...</a><br /></td></tr>
@@ -898,9 +917,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a7cf3fa52c3c25aa060540a33fe6e6ee7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a7cf3fa52c3c25aa060540a33fe6e6ee7">memset</a> (TQueue &amp;queue, TView &amp;view, std::uint8_t const &amp;byte, TExtent const &amp;extent) -&gt; void</td></tr>
 <tr class="memdesc:a7cf3fa52c3c25aa060540a33fe6e6ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the memory to the given value.  <a href="namespacealpaka.html#a7cf3fa52c3c25aa060540a33fe6e6ee7">More...</a><br /></td></tr>
 <tr class="separator:a7cf3fa52c3c25aa060540a33fe6e6ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281336ade8dfb8b3a125b402b699f71e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename TChar , typename TTraits &gt; </td></tr>
+<tr class="memitem:a281336ade8dfb8b3a125b402b699f71e"><td class="memTemplItemLeft" align="right" valign="top">std::basic_ostream&lt; TChar, TTraits &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a281336ade8dfb8b3a125b402b699f71e">operator&lt;&lt;</a> (std::basic_ostream&lt; TChar, TTraits &gt; &amp;os, <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;x)</td></tr>
+<tr class="memdesc:a281336ade8dfb8b3a125b402b699f71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Host-only output of a complex number.  <a href="namespacealpaka.html#a281336ade8dfb8b3a125b402b699f71e">More...</a><br /></td></tr>
+<tr class="separator:a281336ade8dfb8b3a125b402b699f71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d161fc1fc6135444e5d1dcee47db1e"><td class="memTemplParams" colspan="2">template&lt;typename TDim , typename TIdx &gt; </td></tr>
 <tr class="memitem:a02d161fc1fc6135444e5d1dcee47db1e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a02d161fc1fc6135444e5d1dcee47db1e">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classalpaka_1_1WorkDivMembers.html">WorkDivMembers</a>&lt; TDim, TIdx &gt; const &amp;workDiv) -&gt; std::ostream &amp;</td></tr>
 <tr class="separator:a02d161fc1fc6135444e5d1dcee47db1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc81bbd9b4cf5270f1fda4700a502bb"><td class="memTemplParams" colspan="2">template&lt;typename T , typename TChar , typename TTraits &gt; </td></tr>
+<tr class="memitem:abbc81bbd9b4cf5270f1fda4700a502bb"><td class="memTemplItemLeft" align="right" valign="top">std::basic_istream&lt; TChar, TTraits &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#abbc81bbd9b4cf5270f1fda4700a502bb">operator&gt;&gt;</a> (std::basic_istream&lt; TChar, TTraits &gt; &amp;is, <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;x)</td></tr>
+<tr class="memdesc:abbc81bbd9b4cf5270f1fda4700a502bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Host-only input of a complex number.  <a href="namespacealpaka.html#abbc81bbd9b4cf5270f1fda4700a502bb">More...</a><br /></td></tr>
+<tr class="separator:abbc81bbd9b4cf5270f1fda4700a502bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a034cbfbfbcd1ef96bcc4e6358fdfe470"><td class="memTemplParams" colspan="2">template&lt;typename TBuf &gt; </td></tr>
 <tr class="memitem:a034cbfbfbcd1ef96bcc4e6358fdfe470"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a034cbfbfbcd1ef96bcc4e6358fdfe470">pin</a> (TBuf &amp;buf) -&gt; void</td></tr>
 <tr class="memdesc:a034cbfbfbcd1ef96bcc4e6358fdfe470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pins the buffer.  <a href="namespacealpaka.html#a034cbfbfbcd1ef96bcc4e6358fdfe470">More...</a><br /></td></tr>
@@ -1036,6 +1063,24 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ac41d3de7aa83e26273d7f08f8e76fe1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41d3de7aa83e26273d7f08f8e76fe1d">&#9670;&nbsp;</a></span>AccGpuCudaRt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDim , typename TIdx &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#ac41d3de7aa83e26273d7f08f8e76fe1d">alpaka::AccGpuCudaRt</a> = typedef <a class="el" href="classalpaka_1_1AccGpuUniformCudaHipRt.html">AccGpuUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TDim, TIdx&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AccGpuCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="AccGpuCudaRt_8hpp_source.html">AccGpuCudaRt.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a0bad0e6d480fa2fafe60330f304067b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bad0e6d480fa2fafe60330f304067b5">&#9670;&nbsp;</a></span>AtomicCpu</h2>
 
@@ -1106,12 +1151,12 @@ template&lt;typename TDev , typename TElem , typename TDim , typename TIdx &gt; 
 
 <p>The memory buffer type trait alias template to remove the ::type. </p>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00065">65</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00072">72</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9d0a0cf839acc949da9fcf4d05571ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d0a0cf839acc949da9fcf4d05571ad4">&#9670;&nbsp;</a></span>BufCudaRt</h2>
+<a id="ae4501d6cc83b94366a4a141ed1b504b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4501d6cc83b94366a4a141ed1b504b8">&#9670;&nbsp;</a></span>BufCudaRt</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1119,12 +1164,12 @@ template&lt;typename TDev , typename TElem , typename TDim , typename TIdx &gt; 
 template&lt;typename TElem , typename TDim , typename TIdx &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a9d0a0cf839acc949da9fcf4d05571ad4">alpaka::BufCudaRt</a> = typedef <a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html">BufUniformCudaHipRt</a>&lt;TElem, TDim, TIdx&gt;</td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#ae4501d6cc83b94366a4a141ed1b504b8">alpaka::BufCudaRt</a> = typedef <a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html">BufUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TElem, TDim, TIdx&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="BufUniformCudaHipRt_8hpp_source.html#l00086">86</a> of file <a class="el" href="BufUniformCudaHipRt_8hpp_source.html">BufUniformCudaHipRt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="BufCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="BufCudaRt_8hpp_source.html">BufCudaRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1148,19 +1193,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a28e85e5b3182910ce26538c4f4b1d9fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e85e5b3182910ce26538c4f4b1d9fd">&#9670;&nbsp;</a></span>DevCudaRt</h2>
+<a id="a8dab48915b0cb9623165d122b33dd103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dab48915b0cb9623165d122b33dd103">&#9670;&nbsp;</a></span>DevCudaRt</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a28e85e5b3182910ce26538c4f4b1d9fd">alpaka::DevCudaRt</a> = typedef <a class="el" href="classalpaka_1_1DevUniformCudaHipRt.html">DevUniformCudaHipRt</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a8dab48915b0cb9623165d122b33dd103">alpaka::DevCudaRt</a> = typedef <a class="el" href="classalpaka_1_1DevUniformCudaHipRt.html">DevUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="DevUniformCudaHipRt_8hpp_source.html#l00084">84</a> of file <a class="el" href="DevUniformCudaHipRt_8hpp_source.html">DevUniformCudaHipRt.hpp</a>.</p>
+<p>The CUDA RT device handle. </p>
+
+<p class="definition">Definition at line <a class="el" href="DevCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="DevCudaRt_8hpp_source.html">DevCudaRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1258,19 +1305,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6f508034ba4e3b4079efd7e3dfb9838b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f508034ba4e3b4079efd7e3dfb9838b">&#9670;&nbsp;</a></span>EventCudaRt</h2>
+<a id="a5ad78249cee4204531842783fbc021c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad78249cee4204531842783fbc021c9">&#9670;&nbsp;</a></span>EventCudaRt</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a6f508034ba4e3b4079efd7e3dfb9838b">alpaka::EventCudaRt</a> = typedef <a class="el" href="classalpaka_1_1EventUniformCudaHipRt.html">EventUniformCudaHipRt</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a5ad78249cee4204531842783fbc021c9">alpaka::EventCudaRt</a> = typedef <a class="el" href="classalpaka_1_1EventUniformCudaHipRt.html">EventUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EventUniformCudaHipRt_8hpp_source.html#l00121">121</a> of file <a class="el" href="EventUniformCudaHipRt_8hpp_source.html">EventUniformCudaHipRt.hpp</a>.</p>
+<p>The CUDA RT device event. </p>
+
+<p class="definition">Definition at line <a class="el" href="EventCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="EventCudaRt_8hpp_source.html">EventCudaRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1299,7 +1348,7 @@ template&lt;typename T &gt; </div>
 template&lt;class TDim , class TIdx &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a8aec9660f2a0dd2e01db1edd34e4cafa">alpaka::ExampleDefaultAcc</a> = typedef <a class="el" href="classalpaka_1_1AccGpuCudaRt.html">alpaka::AccGpuCudaRt</a>&lt;TDim, TIdx&gt;</td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a8aec9660f2a0dd2e01db1edd34e4cafa">alpaka::ExampleDefaultAcc</a> = typedef <a class="el" href="namespacealpaka.html#ac41d3de7aa83e26273d7f08f8e76fe1d">alpaka::AccGpuCudaRt</a>&lt;TDim, TIdx&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1384,19 +1433,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a11c8a88607a57558a48b2f279bbec545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11c8a88607a57558a48b2f279bbec545">&#9670;&nbsp;</a></span>PltfCudaRt</h2>
+<a id="a2da3c226528d12baea2581aaa6fb9cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da3c226528d12baea2581aaa6fb9cd5">&#9670;&nbsp;</a></span>PltfCudaRt</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a11c8a88607a57558a48b2f279bbec545">alpaka::PltfCudaRt</a> = typedef <a class="el" href="classalpaka_1_1PltfUniformCudaHipRt.html">PltfUniformCudaHipRt</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a2da3c226528d12baea2581aaa6fb9cd5">alpaka::PltfCudaRt</a> = typedef <a class="el" href="classalpaka_1_1PltfUniformCudaHipRt.html">PltfUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PltfUniformCudaHipRt_8hpp_source.html#l00040">40</a> of file <a class="el" href="PltfUniformCudaHipRt_8hpp_source.html">PltfUniformCudaHipRt.hpp</a>.</p>
+<p>The CUDA RT platform. </p>
+
+<p class="definition">Definition at line <a class="el" href="PltfCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="PltfCudaRt_8hpp_source.html">PltfCudaRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1459,35 +1510,39 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
 
 </div>
 </div>
-<a id="a311549e8bc3033e0f1387da53b6f4618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a311549e8bc3033e0f1387da53b6f4618">&#9670;&nbsp;</a></span>QueueCudaRtBlocking</h2>
+<a id="a2e8b3978a69f4844792b91f2632ea66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e8b3978a69f4844792b91f2632ea66f">&#9670;&nbsp;</a></span>QueueCudaRtBlocking</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#a311549e8bc3033e0f1387da53b6f4618">alpaka::QueueCudaRtBlocking</a> = typedef <a class="el" href="namespacealpaka.html#ab0b41862622ca0a42306953f270fa055">QueueUniformCudaHipRtBlocking</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a2e8b3978a69f4844792b91f2632ea66f">alpaka::QueueCudaRtBlocking</a> = typedef <a class="el" href="namespacealpaka.html#a13646f485ddbe5f1809a3d24f77429eb">QueueUniformCudaHipRtBlocking</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="QueueUniformCudaHipRtBlocking_8hpp_source.html#l00023">23</a> of file <a class="el" href="QueueUniformCudaHipRtBlocking_8hpp_source.html">QueueUniformCudaHipRtBlocking.hpp</a>.</p>
+<p>The CUDA RT blocking queue. </p>
+
+<p class="definition">Definition at line <a class="el" href="QueueCudaRtBlocking_8hpp_source.html#l00020">20</a> of file <a class="el" href="QueueCudaRtBlocking_8hpp_source.html">QueueCudaRtBlocking.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aebad4c35c3d61402485ed3c4524298db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebad4c35c3d61402485ed3c4524298db">&#9670;&nbsp;</a></span>QueueCudaRtNonBlocking</h2>
+<a id="ab1b1d2362f1b9fc854fc0ba4008c85e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b1d2362f1b9fc854fc0ba4008c85e4">&#9670;&nbsp;</a></span>QueueCudaRtNonBlocking</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka.html#aebad4c35c3d61402485ed3c4524298db">alpaka::QueueCudaRtNonBlocking</a> = typedef <a class="el" href="namespacealpaka.html#abb9a658a30c53026d7fb363509f6891a">QueueUniformCudaHipRtNonBlocking</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#ab1b1d2362f1b9fc854fc0ba4008c85e4">alpaka::QueueCudaRtNonBlocking</a> = typedef <a class="el" href="namespacealpaka.html#af493861b6c8c71c887690654c4943238">QueueUniformCudaHipRtNonBlocking</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="QueueUniformCudaHipRtNonBlocking_8hpp_source.html#l00023">23</a> of file <a class="el" href="QueueUniformCudaHipRtNonBlocking_8hpp_source.html">QueueUniformCudaHipRtNonBlocking.hpp</a>.</p>
+<p>The CUDA RT non-blocking queue. </p>
+
+<p class="definition">Definition at line <a class="el" href="QueueCudaRtNonBlocking_8hpp_source.html#l00020">20</a> of file <a class="el" href="QueueCudaRtNonBlocking_8hpp_source.html">QueueCudaRtNonBlocking.hpp</a>.</p>
 
 </div>
 </div>
@@ -1523,32 +1578,16 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
 
 </div>
 </div>
-<a id="ab0b41862622ca0a42306953f270fa055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b41862622ca0a42306953f270fa055">&#9670;&nbsp;</a></span>QueueUniformCudaHipRtBlocking</h2>
+<a id="a13646f485ddbe5f1809a3d24f77429eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13646f485ddbe5f1809a3d24f77429eb">&#9670;&nbsp;</a></span>QueueUniformCudaHipRtBlocking</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TApi &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; true &gt; <a class="el" href="namespacealpaka.html#ab0b41862622ca0a42306953f270fa055">alpaka::QueueUniformCudaHipRtBlocking</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The CUDA/HIP RT blocking queue. </p>
-
-<p class="definition">Definition at line <a class="el" href="DevUniformCudaHipRt_8hpp_source.html#l00048">48</a> of file <a class="el" href="DevUniformCudaHipRt_8hpp_source.html">DevUniformCudaHipRt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="abb9a658a30c53026d7fb363509f6891a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb9a658a30c53026d7fb363509f6891a">&#9670;&nbsp;</a></span>QueueUniformCudaHipRtNonBlocking</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt; false &gt; <a class="el" href="namespacealpaka.html#abb9a658a30c53026d7fb363509f6891a">alpaka::QueueUniformCudaHipRtNonBlocking</a></td>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#a13646f485ddbe5f1809a3d24f77429eb">alpaka::QueueUniformCudaHipRtBlocking</a> = typedef <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt;TApi, true&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1556,6 +1595,26 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
 <p>The CUDA/HIP RT blocking queue. </p>
 
 <p class="definition">Definition at line <a class="el" href="DevUniformCudaHipRt_8hpp_source.html#l00049">49</a> of file <a class="el" href="DevUniformCudaHipRt_8hpp_source.html">DevUniformCudaHipRt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af493861b6c8c71c887690654c4943238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af493861b6c8c71c887690654c4943238">&#9670;&nbsp;</a></span>QueueUniformCudaHipRtNonBlocking</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TApi &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#af493861b6c8c71c887690654c4943238">alpaka::QueueUniformCudaHipRtNonBlocking</a> = typedef <a class="el" href="classalpaka_1_1uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt.html">uniform_cuda_hip::detail::QueueUniformCudaHipRt</a>&lt;TApi, false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The CUDA/HIP RT non-blocking queue. </p>
+
+<p class="definition">Definition at line <a class="el" href="DevUniformCudaHipRt_8hpp_source.html#l00052">52</a> of file <a class="el" href="DevUniformCudaHipRt_8hpp_source.html">DevUniformCudaHipRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1576,6 +1635,24 @@ template&lt;typename T &gt; </div>
 <p>Helper to remove <b>restrict</b> from a type. </p>
 
 <p class="definition">Definition at line <a class="el" href="RemoveRestrict_8hpp_source.html#l00039">39</a> of file <a class="el" href="RemoveRestrict_8hpp_source.html">RemoveRestrict.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa48aeb76936551ea2dc5c4fe4759eb35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48aeb76936551ea2dc5c4fe4759eb35">&#9670;&nbsp;</a></span>TaskKernelGpuCudaRt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAcc , typename TDim , typename TIdx , typename TKernelFnObj , typename... TArgs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacealpaka.html#aa48aeb76936551ea2dc5c4fe4759eb35">alpaka::TaskKernelGpuCudaRt</a> = typedef <a class="el" href="classalpaka_1_1TaskKernelGpuUniformCudaHipRt.html">TaskKernelGpuUniformCudaHipRt</a>&lt;<a class="el" href="structalpaka_1_1ApiCudaRt.html">ApiCudaRt</a>, TAcc, TDim, TIdx, TKernelFnObj, TArgs...&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="TaskKernelGpuCudaRt_8hpp_source.html#l00020">20</a> of file <a class="el" href="TaskKernelGpuCudaRt_8hpp_source.html">TaskKernelGpuCudaRt.hpp</a>.</p>
 
 </div>
 </div>
@@ -1615,6 +1692,105 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae53cdd5e2b8a9baf04d8fba5824989c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53cdd5e2b8a9baf04d8fba5824989c9">&#9670;&nbsp;</a></span>abs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> T alpaka::abs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Host-only math functions matching std::complex&lt;T&gt;. </p>
+<p>Due to issue #1688, these functions are technically marked host-device and suppress related warnings. However, they must be called for host only.</p>
+<p>They take and return <a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">alpaka::Complex</a> (or a real number when appropriate). Internally cast, fall back to std::complex implementation and cast back. These functions can be used directly on the host side. They are also picked up by ADL in math traits for CPU backends.</p>
+<p>On the device side, alpaka math traits must be used instead. Note that the set of the traits is currently a bit smaller. Absolute value </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00376">376</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a74b758e5a567e91191849f4adf461b19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74b758e5a567e91191849f4adf461b19">&#9670;&nbsp;</a></span>acos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::acos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc cosine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00384">384</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a21e0ed18c2175f678cfbb516ffe20664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e0ed18c2175f678cfbb516ffe20664">&#9670;&nbsp;</a></span>acosh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::acosh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc hyperbolic cosine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00392">392</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ad3079297a886e6434a3ab3750585d033"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3079297a886e6434a3ab3750585d033">&#9670;&nbsp;</a></span>allocAsyncBuf()</h2>
 
@@ -1662,7 +1838,7 @@ template&lt;typename TElem , typename TIdx , typename TExtent , typename TQueue 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The newly allocated buffer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00092">92</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00099">99</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -1713,7 +1889,225 @@ template&lt;typename TElem , typename TIdx , typename TExtent , typename TDev &g
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The newly allocated buffer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00077">77</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00084">84</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a454ad163b8d81f6459c62f913a2202ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454ad163b8d81f6459c62f913a2202ef">&#9670;&nbsp;</a></span>allocMappedBuf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , typename TIdx , typename TExtent , typename TDev &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto alpaka::allocMappedBuf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1DevCpu.html">DevCpu</a> const &amp;&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TDev const &amp;&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TExtent const &amp;&#160;</td>
+          <td class="paramname"><em>extent</em> = <code>TExtent()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocates pinned/mapped memory on host, accessible by the given device. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TElem</td><td>The element type of the returned buffer. </td></tr>
+    <tr><td class="paramname">TIdx</td><td>The linear index type of the buffer. </td></tr>
+    <tr><td class="paramname">TExtent</td><td>The extent type of the buffer. </td></tr>
+    <tr><td class="paramname">TDev</td><td>The type of device the buffer is accessible from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>The host device to allocate the buffer on. </td></tr>
+    <tr><td class="paramname">dev</td><td>The device to make the memory accessible from. </td></tr>
+    <tr><td class="paramname">extent</td><td>The extent of the buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The newly allocated buffer. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00131">131</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4687bd12b3f0fd3b5c56700a2392e573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4687bd12b3f0fd3b5c56700a2392e573">&#9670;&nbsp;</a></span>arg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> T alpaka::arg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Argument. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00400">400</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aafe64279165070524d74c43ebf803d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe64279165070524d74c43ebf803d22">&#9670;&nbsp;</a></span>asin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::asin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc sine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00408">408</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a994d48e3cd27048203f4f159b01f60e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994d48e3cd27048203f4f159b01f60e5">&#9670;&nbsp;</a></span>asinh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::asinh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc hyperbolic sine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00416">416</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8017c63890cc9f65edf18a7f345c905f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8017c63890cc9f65edf18a7f345c905f">&#9670;&nbsp;</a></span>atan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::atan </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc tangent. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00424">424</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab3a54e749dd5b731d60b04977a30ac26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a54e749dd5b731d60b04977a30ac26">&#9670;&nbsp;</a></span>atanh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::atanh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arc hyperbolic tangent. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00432">432</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -2647,6 +3041,102 @@ template&lt;typename TVecL , typename TVecR &gt; </div>
 
 </div>
 </div>
+<a id="ae1410ae72b506d5aae224e15901b3131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1410ae72b506d5aae224e15901b3131">&#9670;&nbsp;</a></span>conj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::conj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">Complex</a> conjugate. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00440">440</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a32ea951bb9c42fbe7032d6fe8625b183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ea951bb9c42fbe7032d6fe8625b183">&#9670;&nbsp;</a></span>cos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::cos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cosine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00448">448</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a50dd29fbadfda153f800b302be043151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50dd29fbadfda153f800b302be043151">&#9670;&nbsp;</a></span>cosh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::cosh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hyperbolic cosine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00456">456</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="adedb8c0a11a3096bccbd7d37481798b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adedb8c0a11a3096bccbd7d37481798b0">&#9670;&nbsp;</a></span>createStaticDevMemView()</h2>
 
@@ -3327,6 +3817,38 @@ template&lt;typename TAcc , typename TQueue , typename TWorkDiv , typename TKern
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00269">269</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aec3fd0772955ff432f9180094b98ba60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3fd0772955ff432f9180094b98ba60">&#9670;&nbsp;</a></span>exp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::exp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exponential. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00464">464</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -4831,7 +5353,7 @@ template&lt;typename TBuf &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00162">162</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00185">185</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -4989,6 +5511,70 @@ template&lt;typename TAcc , typename TDev , typename TWorkDiv &gt; </div>
 
 </div>
 </div>
+<a id="a512283aaade3fb1f8c8be26870c33cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a512283aaade3fb1f8c8be26870c33cdf">&#9670;&nbsp;</a></span>log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Natural logarithm. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00472">472</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aeb529e37fbca6cd64bdcc0f89031697d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb529e37fbca6cd64bdcc0f89031697d">&#9670;&nbsp;</a></span>log10()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::log10 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Base 10 logarithm. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00480">480</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a30687ca1eaba239c74afd1bb2f26831c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30687ca1eaba239c74afd1bb2f26831c">&#9670;&nbsp;</a></span>malloc()</h2>
 
@@ -5068,7 +5654,7 @@ template&lt;typename TBuf , typename TDev &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00120">120</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00143">143</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -5417,8 +6003,658 @@ template&lt;typename TExtent , typename TView , typename TQueue &gt; </div>
 
 </div>
 </div>
+<a id="a52a183b4a85128a90c040667353b5294"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a183b4a85128a90c040667353b5294">&#9670;&nbsp;</a></span>norm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> T alpaka::norm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Squared magnitude. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00488">488</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="add7b0ae928b77951134fee455fc0e142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7b0ae928b77951134fee455fc0e142">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality of two complex numbers. </p>
+<dl class="section note"><dt>Note</dt><dd>this and other versions of operator != should be removed since C++20, as so does std::complex </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00316">316</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9e021fc4552fc5aaf4f9b566cd5c83ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e021fc4552fc5aaf4f9b566cd5c83ae">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality of a complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00323">323</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a18b65a20445c069caf4e607fde528673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b65a20445c069caf4e607fde528673">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00331">331</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af2d9f4c8c50a62252b5579333b424940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d9f4c8c50a62252b5579333b424940">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Muptiplication of two complex numbers. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00242">242</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5b8921f282f78ef0a61385a9e3e3b213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b8921f282f78ef0a61385a9e3e3b213">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Muptiplication of a complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00251">251</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a81b181b1d464d5bb03ae781c22750ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b181b1d464d5bb03ae781c22750ca3">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator* </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Muptiplication of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00258">258</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7d32a82f72dac684292dbea887a7ee12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d32a82f72dac684292dbea887a7ee12">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Addition of two complex numbers. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00200">200</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0aa8696df70f831430950ec8709194a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa8696df70f831430950ec8709194a4">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Addition of a complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00207">207</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad90c384ab8eb037d42e98cd0d7d75632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad90c384ab8eb037d42e98cd0d7d75632">&#9670;&nbsp;</a></span>operator+() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Host-device arithmetic operations matching std::complex&lt;T&gt;. </p>
+<p>They take and return <a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">alpaka::Complex</a>. Unary plus (added for compatibility with std::complex) </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00186">186</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad5f948319dba9bd0fdfb59bd810a9ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5f948319dba9bd0fdfb59bd810a9ac6">&#9670;&nbsp;</a></span>operator+() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Addition of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00214">214</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8c8f447bfbfe23aa289be0aca09ac17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8f447bfbfe23aa289be0aca09ac17e">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtraction of two complex numbers. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00221">221</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9ed132cc4e9b78ccb0c88bccc48b1788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed132cc4e9b78ccb0c88bccc48b1788">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtraction of a complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00228">228</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a12eddf9fad9dfdc600d4c1561e74e2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12eddf9fad9dfdc600d4c1561e74e2df">&#9670;&nbsp;</a></span>operator-() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unary minus. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00193">193</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0fbdf76839726972a2b3121a71391982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fbdf76839726972a2b3121a71391982">&#9670;&nbsp;</a></span>operator-() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator- </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtraction of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00235">235</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a450ff2d388dcd2d8a62cd523252b27f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a450ff2d388dcd2d8a62cd523252b27f1">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator/ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Division of two complex numbers. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00265">265</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a04ae4930bfe8066926626e8cb5bb66ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ae4930bfe8066926626e8cb5bb66ef">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator/ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Division of complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00274">274</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a282c76b0e23fbbe6ce912a0e4e3d7a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282c76b0e23fbbe6ce912a0e4e3d7a0b">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Division of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00281">281</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a281336ade8dfb8b3a125b402b699f71e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281336ade8dfb8b3a125b402b699f71e">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename TChar , typename TTraits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::basic_ostream&lt;TChar, TTraits&gt;&amp; alpaka::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_ostream&lt; TChar, TTraits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Host-only output of a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00341">341</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a02d161fc1fc6135444e5d1dcee47db1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02d161fc1fc6135444e5d1dcee47db1e">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d161fc1fc6135444e5d1dcee47db1e">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5447,6 +6683,166 @@ template&lt;typename TDim , typename TIdx &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="WorkDivMembers_8hpp_source.html#l00074">74</a> of file <a class="el" href="WorkDivMembers_8hpp_source.html">WorkDivMembers.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6ffccb70408f2e4ef54710801da312cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ffccb70408f2e4ef54710801da312cf">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality of two complex numbers. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00290">290</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae2aef1b60bfff4ae14e63c0a84f69a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2aef1b60bfff4ae14e63c0a84f69a11">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality of a complex and a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00298">298</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af5719a162262c1411456eee5dca4f390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5719a162262c1411456eee5dca4f390">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> bool alpaka::operator== </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality of a real and a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00306">306</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abbc81bbd9b4cf5270f1fda4700a502bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc81bbd9b4cf5270f1fda4700a502bb">&#9670;&nbsp;</a></span>operator&gt;&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename TChar , typename TTraits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::basic_istream&lt;TChar, TTraits&gt;&amp; alpaka::operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_istream&lt; TChar, TTraits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>is</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Host-only input of a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00349">349</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -5483,7 +6879,49 @@ template&lt;typename TBuf &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00142">142</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00165">165</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a86d7a0737b745fb6b3befa1115654941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d7a0737b745fb6b3befa1115654941">&#9670;&nbsp;</a></span>polar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::polar </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>theta</em> = <code>T()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a complex number with given magnitude and phase angle. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00496">496</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -5583,6 +7021,132 @@ template&lt;typename TIntrinsic &gt; </div>
 
 </div>
 </div>
+<a id="a1c9f8d6aa0a38ec10bb560feaad73641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9f8d6aa0a38ec10bb560feaad73641">&#9670;&nbsp;</a></span>pow() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; U &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">Complex</a> power of a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00504">504</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6df9e04089cbdc8b55783579f8d4fbe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df9e04089cbdc8b55783579f8d4fbe0">&#9670;&nbsp;</a></span>pow() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U const &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Real power of a complex number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00512">512</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8dc362f8e971d52690bc65bdf5901ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc362f8e971d52690bc65bdf5901ce9">&#9670;&nbsp;</a></span>pow() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; U &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">Complex</a> power of a real number. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00520">520</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a93d03d799a39746ab0418ec48f73a4eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93d03d799a39746ab0418ec48f73a4eb">&#9670;&nbsp;</a></span>prepareForAsyncCopy()</h2>
 
@@ -5616,7 +7180,7 @@ template&lt;typename TBuf &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00173">173</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00196">196</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -5676,6 +7240,38 @@ template&lt;typename TView &gt; </div>
 <p>Prints the content of the view to the given queue. </p>
 
 <p class="definition">Definition at line <a class="el" href="mem_2view_2Traits_8hpp_source.html#l00310">310</a> of file <a class="el" href="mem_2view_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a04e2df797bfc2c24d3c11bee905fcb38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e2df797bfc2c24d3c11bee905fcb38">&#9670;&nbsp;</a></span>proj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::proj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projection onto the Riemann sphere. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00528">528</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -6015,6 +7611,102 @@ template&lt;typename TExtent , typename TWidth &gt; </div>
 
 </div>
 </div>
+<a id="a6039fd484be080c6a83c76514823ae98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6039fd484be080c6a83c76514823ae98">&#9670;&nbsp;</a></span>sin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::sin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00536">536</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a69990d4a1cf67fe4e44d899706c8306e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69990d4a1cf67fe4e44d899706c8306e">&#9670;&nbsp;</a></span>sinh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::sinh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hyperbolic sine. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00544">544</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1be00713914869c9b4bb154f7d00d60b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1be00713914869c9b4bb154f7d00d60b">&#9670;&nbsp;</a></span>sqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::sqrt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Square root. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00552">552</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="affc77d4ef026e07e11d1fe82ec83b819"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affc77d4ef026e07e11d1fe82ec83b819">&#9670;&nbsp;</a></span>subDivideGridElems()</h2>
 
@@ -6278,6 +7970,70 @@ template&lt;typename TOp , typename TBlockSync &gt; </div>
 
 </div>
 </div>
+<a id="a8a99b95a420e342af1d31e69cfd75aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a99b95a420e342af1d31e69cfd75aee">&#9670;&nbsp;</a></span>tan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::tan </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tangent. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00560">560</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a20aaf879faf604ffbe737ad73edf5744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20aaf879faf604ffbe737ad73edf5744">&#9670;&nbsp;</a></span>tanh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::tanh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hyperbolic tangent. </p>
+
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00568">568</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a3f43b3bce664426a2f439c6a4071e88a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f43b3bce664426a2f439c6a4071e88a">&#9670;&nbsp;</a></span>unmap()</h2>
 
@@ -6323,7 +8079,7 @@ template&lt;typename TBuf , typename TDev &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00132">132</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00155">155</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6360,7 +8116,7 @@ template&lt;typename TBuf &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00152">152</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00175">175</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6474,7 +8230,7 @@ template&lt;typename TDev , typename TDim &gt; </div>
 <p>Check if the given device can allocate a stream-ordered memory buffer of the given dimensionality. </p>
 <p>TDev is the type of device to allocate the buffer on. TDim is the dimensionality of the buffer to allocate. </p>
 
-<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00108">108</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mem_2buf_2Traits_8hpp_source.html#l00115">115</a> of file <a class="el" href="mem_2buf_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6512,7 +8268,7 @@ template&lt;typename T , typename U &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacealpaka.html">alpaka</a></li>
-    <li class="footer">Generated on Thu Apr 28 2022 13:52:24 for alpaka by
+    <li class="footer">Generated on Thu Apr 28 2022 14:35:50 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
