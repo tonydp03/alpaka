@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['e_824',['e',['../namespacealpaka_1_1math_1_1constants.html#a7ad96b482f538f4c4a525beac7c9c938',1,'alpaka::math::constants']]],
-  ['e_5fv_825',['e_v',['../namespacealpaka_1_1math_1_1constants.html#a75ff4dc70ac01e917ba009145ab6899f',1,'alpaka::math::constants']]],
   ['elem_826',['Elem',['../structalpaka_1_1detail_1_1TaskCopyCpuBase.html#a93890b82f7b319728de301dc8680fd3c',1,'alpaka::detail::TaskCopyCpuBase::Elem()'],['../structalpaka_1_1detail_1_1TaskCopyCpu_3_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a288b17d59fa6d23c255a903564c0d47d',1,'alpaka::detail::TaskCopyCpu&lt; DimInt&lt; 0u &gt;, TViewDst, TViewSrc, TExtent &gt;::Elem()'],['../structalpaka_1_1detail_1_1TaskSetCpuBase.html#af3077f62b288305b8c9d4a6227b279f5',1,'alpaka::detail::TaskSetCpuBase::Elem()'],['../structalpaka_1_1detail_1_1TaskSetCpu_3_01DimInt_3_010u_01_4_00_01TView_00_01TExtent_01_4.html#ad92a10242af826a841559c15308e3ca9',1,'alpaka::detail::TaskSetCpu&lt; DimInt&lt; 0u &gt;, TView, TExtent &gt;::Elem()'],['../namespacealpaka.html#a807188d82118e5a640469d676853a195',1,'alpaka::Elem()']]],
   ['elemtype_827',['ElemType',['../structalpaka_1_1trait_1_1ElemType.html',1,'alpaka::trait']]],
   ['elemtype_3c_20bufcpu_3c_20telem_2c_20tdim_2c_20tidx_20_3e_20_3e_828',['ElemType&lt; BufCpu&lt; TElem, TDim, TIdx &gt; &gt;',['../structalpaka_1_1trait_1_1ElemType_3_01BufCpu_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html',1,'alpaka::trait']]],

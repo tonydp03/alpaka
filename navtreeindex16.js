@@ -1,15 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"structalpaka_1_1trait_1_1IdxType_3_01bt_1_1IdxBtZero_3_01TDim_00_01TIdx_01_4_01_4.html":[3,0,0,18,453],
-"structalpaka_1_1trait_1_1IdxType_3_01bt_1_1IdxBtZero_3_01TDim_00_01TIdx_01_4_01_4.html#a844022eccdb3e44933faad6b5bbb2005":[3,0,0,18,453,0],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbLinear_3_01TDim_00_01TIdx_01_4_01_4.html":[3,0,0,18,457],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbLinear_3_01TDim_00_01TIdx_01_4_01_4.html#aaf02b7bdf3293b7fc625c3fe3e008906":[3,0,0,18,457,0],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbRef_3_01TDim_00_01TIdx_01_4_01_4.html":[3,0,0,18,458],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbRef_3_01TDim_00_01TIdx_01_4_01_4.html#a3f20aa2b66cf2610153704d3ac80d76a":[3,0,0,18,458,0],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbUniformCudaHipBuiltIn_3_01TDim_00_01TIdx_01_4_01_4.html":[3,0,0,18,459],
-"structalpaka_1_1trait_1_1IdxType_3_01gb_1_1IdxGbUniformCudaHipBuiltIn_3_01TDim_00_01TIdx_01_4_01_4.html#a4ed480be781ffb4d9e61054d7a7b91b1":[3,0,0,18,459,0],
-"structalpaka_1_1trait_1_1IdxType_3_01std_1_1array_3_01TElem_00_01Tsize_01_4_01_4.html":[3,0,0,18,460],
-"structalpaka_1_1trait_1_1IdxType_3_01std_1_1array_3_01TElem_00_01Tsize_01_4_01_4.html#a3f31da38d925db128f5e6272b829a132":[3,0,0,18,460,0],
 "structalpaka_1_1trait_1_1IdxType_3_01std_1_1vector_3_01TElem_00_01TAllocator_01_4_01_4.html":[3,0,0,18,461],
 "structalpaka_1_1trait_1_1IdxType_3_01std_1_1vector_3_01TElem_00_01TAllocator_01_4_01_4.html#a594814659391e8c4570c82d3795f01da":[3,0,0,18,461,0],
 "structalpaka_1_1trait_1_1IsComplete.html":[3,0,0,18,477],
@@ -249,5 +239,15 @@ var NAVTREEINDEX16 =
 "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4.html":[3,0,0,18,610],
 "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4.html#a9f2b49612c179b2b22abacb4d1d102fd":[3,0,0,18,610,0],
 "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsBlocking_3_01TDev_01_4_00_01EventG7e36a52cc67be52fa1b4944fd74cc55c.html":[3,0,0,18,611],
-"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsBlocking_3_01TDev_01_4_00_01EventG7e36a52cc67be52fa1b4944fd74cc55c.html#a3e42884ded6975972352d9fc7605f9de":[3,0,0,18,611,0]
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsBlocking_3_01TDev_01_4_00_01EventG7e36a52cc67be52fa1b4944fd74cc55c.html#a3e42884ded6975972352d9fc7605f9de":[3,0,0,18,611,0],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsNonBlocking_3_01TDev_01_4_00_01Eve1997da4d547a82a9d47dff51beb12816.html":[3,0,0,18,612],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsNonBlocking_3_01TDev_01_4_00_01Eve1997da4d547a82a9d47dff51beb12816.html#af8b5bb4a351c7c439dd57e7d3e91241b":[3,0,0,18,612,0],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtBlocking_3_01TApi_01_4_00_01Even9bd2d2c09c98f9f04aeae65df74fb19f.html":[3,0,0,18,613],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtBlocking_3_01TApi_01_4_00_01Even9bd2d2c09c98f9f04aeae65df74fb19f.html#a0c22dc2cc99ae889e27e32de2502dd7c":[3,0,0,18,613,0],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01E19bd7448850749104fd5d2cb2291b691.html":[3,0,0,18,614],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01E19bd7448850749104fd5d2cb2291b691.html#a989d17e8d6bd9a5c324093e1aab93c14":[3,0,0,18,614,0],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4.html":[3,0,0,18,615],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4.html#a2fb6252c8ffa64d6fc77ce5c029247af":[3,0,0,18,615,0],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01alpaka_1_1generic_1_1detail_1_1QueueGenericThreadsBloa24aa90e52962d28b3f1958b68d5414d.html":[3,0,0,18,606],
+"structalpaka_1_1trait_1_1WaiterWaitFor_3_01alpaka_1_1generic_1_1detail_1_1QueueGenericThreadsBloa24aa90e52962d28b3f1958b68d5414d.html#a0f2dacd5dd281896a4b71cbd04525532":[3,0,0,18,606,0]
 };
