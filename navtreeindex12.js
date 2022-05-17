@@ -1,12 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01double_01_4.html#ac7178ffe0bc1f7c9fd8525839dcfd651":[3,0,0,16,1,1,8,0],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01float_01_4.html":[3,0,0,16,1,1,9],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01float_01_4.html#a96fa1d308924c4afcc6fad48fa6b0ab5":[3,0,0,16,1,1,9,0],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01int_01_4.html":[3,0,0,16,1,1,10],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01int_01_4.html#aba84f189423f555fd4c28f21d27b0efe":[3,0,0,16,1,1,10,0],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01unsigned_01_4.html":[3,0,0,16,1,1,11],
-"structalpaka_1_1rand_1_1engine_1_1trait_1_1PhiloxResultContainerTraits_3_01unsigned_01_4.html#a643a5da28eea4178900557466a903dfe":[3,0,0,16,1,1,11,0],
 "structalpaka_1_1remove__restrict.html":[3,0,0,110],
 "structalpaka_1_1remove__restrict.html#a233efb391b9f8e5682ea92b7e3cbf9bc":[3,0,0,110,0],
 "structalpaka_1_1remove__restrict_3_01T_01_5____restrict_____01_4.html":[3,0,0,111],
@@ -249,5 +242,12 @@ var NAVTREEINDEX12 =
 "structalpaka_1_1trait_1_1AtomicOp_3_01AtomicXor_00_01AtomicUniformCudaHipBuiltIn_00_01unsigned_0c2da720e8fea80a6be292e13f3669b01.html":[3,0,0,18,89],
 "structalpaka_1_1trait_1_1AtomicOp_3_01AtomicXor_00_01AtomicUniformCudaHipBuiltIn_00_01unsigned_0c2da720e8fea80a6be292e13f3669b01.html#a8344f71cb40959b2684435fab3d1c20f":[3,0,0,18,89,0],
 "structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicNoOp_00_01T_00_01THierarchy_01_4.html":[3,0,0,18,91],
-"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicNoOp_00_01T_00_01THierarchy_01_4.html#a887b1446c1aef7853f51b9dacb95d4db":[3,0,0,18,91,1]
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicNoOp_00_01T_00_01THierarchy_01_4.html#a887b1446c1aef7853f51b9dacb95d4db":[3,0,0,18,91,1],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicNoOp_00_01T_00_01THierarchy_01_4.html#a9461d4749febfbaef11900e42d250ba8":[3,0,0,18,91,0],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicOmpBuiltIn_00_01T_00_01THierarchy_01_4.html":[3,0,0,18,92],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicOmpBuiltIn_00_01T_00_01THierarchy_01_4.html#a1ab9f17d94ba43d31495de0bfdeb8ca2":[3,0,0,18,92,1],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicOmpBuiltIn_00_01T_00_01THierarchy_01_4.html#ae639b1692add15bb7632d3c78393358a":[3,0,0,18,92,0],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicStdLibLock_3_01THashTableSize_01_4_00_01T_00_01THierarchy_01_4.html":[3,0,0,18,93],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicStdLibLock_3_01THashTableSize_01_4_00_01T_00_01THierarchy_01_4.html#a2aad45088c015bf3c7dad285ef5c9768":[3,0,0,18,93,1],
+"structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicStdLibLock_3_01THashTableSize_01_4_00_01T_00_01THierarchy_01_4.html#a5a676fffcae3834de7e6672e634baf6e":[3,0,0,18,93,0]
 };

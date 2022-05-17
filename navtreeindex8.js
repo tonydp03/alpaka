@@ -1,12 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"namespacemembers_func_o.html":[2,1,1,12],
-"namespacemembers_func_p.html":[2,1,1,13],
-"namespacemembers_func_r.html":[2,1,1,14],
-"namespacemembers_func_s.html":[2,1,1,15],
-"namespacemembers_func_t.html":[2,1,1,16],
-"namespacemembers_func_u.html":[2,1,1,17],
-"namespacemembers_func_v.html":[2,1,1,18],
 "namespacemembers_func_w.html":[2,1,1,19],
 "namespacemembers_g.html":[2,1,0,6],
 "namespacemembers_h.html":[2,1,0,7],
@@ -248,6 +241,13 @@ var NAVTREEINDEX8 =
 "structalpaka_1_1concepts_1_1detail_1_1ImplementationBaseType_3_01TConcept_00_01TDerived_00_01std686c4360b26b64ddd5bd70ecd2ee8374.html":[3,0,0,1,0,1],
 "structalpaka_1_1concepts_1_1detail_1_1ImplementationBaseType_3_01TConcept_00_01TDerived_00_01std686c4360b26b64ddd5bd70ecd2ee8374.html#a45345ca3b1f0416e30745f367d064790":[3,0,0,1,0,1,0],
 "structalpaka_1_1concepts_1_1detail_1_1ImplementationBaseType_3_01TConcept_00_01TDerived_00_01std686c4360b26b64ddd5bd70ecd2ee8374.html#a5b70f58ae2c30fe8144ab57a69d6e402":[3,0,0,1,0,1,1],
-"structalpaka_1_1core_1_1RoundUpToPowerOfTwo.html":[3,0,0,2,5],
-"structalpaka_1_1core_1_1align_1_1OptimalAlignment.html":[3,0,0,2,0,0]
+"structalpaka_1_1core_1_1RoundUpToPowerOfTwo.html":[3,0,0,2,4],
+"structalpaka_1_1core_1_1align_1_1OptimalAlignment.html":[3,0,0,2,0,0],
+"structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html":[3,0,0,2,1,0],
+"structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html#aef04edfcc394cb33753d692b1c4aba82":[3,0,0,2,1,0,0],
+"structalpaka_1_1core_1_1detail_1_1AssertValueUnsigned.html":[3,0,0,2,1,1],
+"structalpaka_1_1core_1_1detail_1_1AssertValueUnsigned.html#a05ac5d22cd7bf5947c87848005ff242c":[3,0,0,2,1,1,0],
+"structalpaka_1_1core_1_1detail_1_1RoundUpToPowerOfTwoHelper.html":[3,0,0,2,1,5],
+"structalpaka_1_1core_1_1detail_1_1RoundUpToPowerOfTwoHelper_3_01N_00_01false_01_4.html":[3,0,0,2,1,6],
+"structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp.html":[3,0,0,2,2,0,0]
 };

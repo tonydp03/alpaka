@@ -1,12 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"structalpaka_1_1trait_1_1WaiterWaitFor_3_01alpaka_1_1generic_1_1detail_1_1QueueGenericThreadsNoncc3418cdf5ea14849eed331af2118e8f.html":[3,0,0,18,607],
-"structalpaka_1_1trait_1_1WaiterWaitFor_3_01alpaka_1_1generic_1_1detail_1_1QueueGenericThreadsNoncc3418cdf5ea14849eed331af2118e8f.html#a9679f7d717fe3d217666d8ec2a35ef41":[3,0,0,18,607,0],
-"structalpaka_1_1trait_1_1WaiterWaitFor_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4.html":[3,0,0,18,608],
-"structalpaka_1_1trait_1_1WaiterWaitFor_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4.html#ab5fa6484509b1908a071d37bc1dcea1e":[3,0,0,18,608,0],
-"structalpaka_1_1trait_1_1detail_1_1AtomicOp.html":[3,0,0,18,0,0],
-"structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html":[3,0,0,18,0,1],
-"structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html#aa5a89c89818bf61fd4f689cd9f8ffc3d":[3,0,0,18,0,1,0],
 "structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html":[3,0,0,18,0,2],
 "structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html#ad3db1a72e1bbc6dfba09d031f3329f1b":[3,0,0,18,0,2,0],
 "structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockOr_01_4.html":[3,0,0,18,0,3],

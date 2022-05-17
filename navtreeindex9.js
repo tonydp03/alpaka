@@ -1,12 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html":[3,0,0,2,1,0],
-"structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html#aef04edfcc394cb33753d692b1c4aba82":[3,0,0,2,1,0,0],
-"structalpaka_1_1core_1_1detail_1_1AssertValueUnsigned.html":[3,0,0,2,1,1],
-"structalpaka_1_1core_1_1detail_1_1AssertValueUnsigned.html#a05ac5d22cd7bf5947c87848005ff242c":[3,0,0,2,1,1,0],
-"structalpaka_1_1core_1_1detail_1_1RoundUpToPowerOfTwoHelper.html":[3,0,0,2,1,5],
-"structalpaka_1_1core_1_1detail_1_1RoundUpToPowerOfTwoHelper_3_01N_00_01false_01_4.html":[3,0,0,2,1,6],
-"structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp.html":[3,0,0,2,2,0,0],
 "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html":[3,0,0,2,2,0,1],
 "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html#a8f4561f5884ab81524a4a94082b7d118":[3,0,0,2,2,0,1,0],
 "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html":[3,0,0,2,2,0,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX9 =
 "structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#a5d25a4d138e7f6fc5001775ddbc5b6de":[3,0,0,6,3,7],
 "structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#a7743f282a0f65ad0f63d43f37ad1f8b9":[3,0,0,6,3,2],
 "structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#a79ebe42d9019dc1a98975cbc41c72a9f":[3,0,0,6,3,0],
-"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#a9c0148e9e341775c670e2bc6c7eae5ba":[3,0,0,6,3,4]
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#a9c0148e9e341775c670e2bc6c7eae5ba":[3,0,0,6,3,4],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#ae097ff05912d125ec4bcbb2b695aa545":[3,0,0,6,3,3],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_011_00_01TAccessModes_01_4.html#aea4472cfda7f01eba5ef83b63f770d9a":[3,0,0,6,3,1],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_01TDim_00_01TAccessModes_01_4.html":[3,0,0,6,4],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_01TDim_00_01TAccessModes_01_4.html#a177c478fcfaa9816573f43eb5e7b2637":[3,0,0,6,4,7],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_01TDim_00_01TAccessModes_01_4.html#a70f394bcbdfaff955b68c1490f475771":[3,0,0,6,4,6],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_01TDim_00_01TAccessModes_01_4.html#a8da6ec7f35b88b690bfb286992c2b861":[3,0,0,6,4,2],
+"structalpaka_1_1experimental_1_1Accessor_3_01TElem_01_5_00_01TElem_00_01TBufferIdx_00_01TDim_00_01TAccessModes_01_4.html#a94811669a8795355491875d55df7cb6f":[3,0,0,6,4,5]
 };
