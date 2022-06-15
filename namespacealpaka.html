@@ -325,8 +325,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1ConceptTime.html">ConceptTime</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1ConceptUniformCudaHip.html">ConceptUniformCudaHip</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1ConceptWorkDiv.html">ConceptWorkDiv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1DevCpu.html">DevCpu</a></td></tr>
@@ -873,6 +871,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9234c08c7824fc7b5a9a73e6a11fbd1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae9234c08c7824fc7b5a9a73e6a11fbd1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#ae9234c08c7824fc7b5a9a73e6a11fbd1">isSupportedByAtomicAtomicRef</a> ()</td></tr>
 <tr class="separator:ae9234c08c7824fc7b5a9a73e6a11fbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eff06f85c5dea1113339591f05ebc0e"><td class="memTemplParams" colspan="2">template&lt;typename TThread &gt; </td></tr>
+<tr class="memitem:a8eff06f85c5dea1113339591f05ebc0e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a8eff06f85c5dea1113339591f05ebc0e">isThisThread</a> (const TThread &amp;thread) -&gt; bool</td></tr>
+<tr class="memdesc:a8eff06f85c5dea1113339591f05ebc0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given thread handle is a handle for the executing thread.  <a href="namespacealpaka.html#a8eff06f85c5dea1113339591f05ebc0e">More...</a><br /></td></tr>
+<tr class="separator:a8eff06f85c5dea1113339591f05ebc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49da61db606743ad5f75c6db33cfc043"><td class="memTemplParams" colspan="2">template&lt;typename TDim , typename TIdx &gt; </td></tr>
 <tr class="memitem:a49da61db606743ad5f75c6db33cfc043"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka.html#a49da61db606743ad5f75c6db33cfc043">isValidAccDevProps</a> (<a class="el" href="structalpaka_1_1AccDevProps.html">AccDevProps</a>&lt; TDim, TIdx &gt; const &amp;accDevProps) -&gt; bool</td></tr>
 <tr class="separator:a49da61db606743ad5f75c6db33cfc043"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1059,7 +1061,7 @@ template&lt;typename T &gt; </div>
 
 <p>The accelerator type trait alias template to remove the ::type. </p>
 
-<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00073">73</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00058">58</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -1490,7 +1492,7 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="DevCpu_8hpp_source.html#l00220">220</a> of file <a class="el" href="DevCpu_8hpp_source.html">DevCpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DevCpu_8hpp_source.html#l00187">187</a> of file <a class="el" href="DevCpu_8hpp_source.html">DevCpu.hpp</a>.</p>
 
 </div>
 </div>
@@ -1506,7 +1508,7 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="DevCpu_8hpp_source.html#l00219">219</a> of file <a class="el" href="DevCpu_8hpp_source.html">DevCpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DevCpu_8hpp_source.html#l00186">186</a> of file <a class="el" href="DevCpu_8hpp_source.html">DevCpu.hpp</a>.</p>
 
 </div>
 </div>
@@ -1558,7 +1560,7 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="DevOmp5_8hpp_source.html#l00277">277</a> of file <a class="el" href="DevOmp5_8hpp_source.html">DevOmp5.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DevOmp5_8hpp_source.html#l00247">247</a> of file <a class="el" href="DevOmp5_8hpp_source.html">DevOmp5.hpp</a>.</p>
 
 </div>
 </div>
@@ -1574,7 +1576,7 @@ template&lt;typename TEnv , typename TProperty &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="DevOmp5_8hpp_source.html#l00276">276</a> of file <a class="el" href="DevOmp5_8hpp_source.html">DevOmp5.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DevOmp5_8hpp_source.html#l00246">246</a> of file <a class="el" href="DevOmp5_8hpp_source.html">DevOmp5.hpp</a>.</p>
 
 </div>
 </div>
@@ -3276,7 +3278,7 @@ template&lt;typename TAcc , typename TWorkDiv , typename TKernelFnObj , typename
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The kernel execution task. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00220">220</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00221">221</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -3816,7 +3818,7 @@ template&lt;typename TAcc , typename TQueue , typename TWorkDiv , typename TKern
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00269">269</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00270">270</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -4040,7 +4042,7 @@ template&lt;typename TAcc , typename TDev &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>The acceleration properties on the given device. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00077">77</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00062">62</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -4069,7 +4071,7 @@ template&lt;typename TAcc &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00087">87</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="acc_2Traits_8hpp_source.html#l00072">72</a> of file <a class="el" href="acc_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -4130,7 +4132,7 @@ template&lt;typename TAcc , typename TKernelFnObj , typename TDim , typename... 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of the shared memory allocated for a block in bytes. The default implementation always returns zero. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00147">147</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00148">148</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -4923,7 +4925,7 @@ template&lt;typename TAcc , typename TKernelFnObj , typename TDim , typename... 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The OpenMP schedule information as an <a class="el" href="structalpaka_1_1omp_1_1Schedule.html" title="Representation of OpenMP schedule information: kind and chunk size. This class can be used regardless...">alpaka::omp::Schedule</a> object if the kernel specialized the OmpSchedule trait, an object of another type if the kernel didn't specialize the trait. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00176">176</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kernel_2Traits_8hpp_source.html#l00177">177</a> of file <a class="el" href="kernel_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -5375,6 +5377,31 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="AtomicAtomicRef_8hpp_source.html#l00046">46</a> of file <a class="el" href="AtomicAtomicRef_8hpp_source.html">AtomicAtomicRef.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8eff06f85c5dea1113339591f05ebc0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eff06f85c5dea1113339591f05ebc0e">&#9670;&nbsp;</a></span>isThisThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TThread &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto alpaka::isThisThread </td>
+          <td>(</td>
+          <td class="paramtype">const TThread &amp;&#160;</td>
+          <td class="paramname"><em>thread</em></td><td>)</td>
+          <td> -&gt; bool
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the given thread handle is a handle for the executing thread. </p>
+
+<p class="definition">Definition at line <a class="el" href="ThreadTraits_8hpp_source.html#l00029">29</a> of file <a class="el" href="ThreadTraits_8hpp_source.html">ThreadTraits.hpp</a>.</p>
 
 </div>
 </div>
@@ -7021,8 +7048,8 @@ template&lt;typename TIntrinsic &gt; </div>
 
 </div>
 </div>
-<a id="a1c9f8d6aa0a38ec10bb560feaad73641"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c9f8d6aa0a38ec10bb560feaad73641">&#9670;&nbsp;</a></span>pow() <span class="overload">[1/3]</span></h2>
+<a id="aa42c7647b06666f0502bfc55cd08c41b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42c7647b06666f0502bfc55cd08c41b">&#9670;&nbsp;</a></span>pow() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7033,7 +7060,7 @@ template&lt;typename T , typename U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto alpaka::pow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -7063,8 +7090,8 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a6df9e04089cbdc8b55783579f8d4fbe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df9e04089cbdc8b55783579f8d4fbe0">&#9670;&nbsp;</a></span>pow() <span class="overload">[2/3]</span></h2>
+<a id="a048ff9cca5c56811851e429e924dca34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048ff9cca5c56811851e429e924dca34">&#9670;&nbsp;</a></span>pow() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7075,7 +7102,7 @@ template&lt;typename T , typename U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto alpaka::pow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt; T &gt; const &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -7101,12 +7128,12 @@ template&lt;typename T , typename U &gt; </div>
 
 <p>Real power of a complex number. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00512">512</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00515">515</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a8dc362f8e971d52690bc65bdf5901ce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dc362f8e971d52690bc65bdf5901ce9">&#9670;&nbsp;</a></span>pow() <span class="overload">[3/3]</span></h2>
+<a id="a24f5f15e3db738c65f2f086249940e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f5f15e3db738c65f2f086249940e4c">&#9670;&nbsp;</a></span>pow() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7117,7 +7144,7 @@ template&lt;typename T , typename U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> <a class="el" href="classalpaka_1_1Complex.html">Complex</a>&lt;T&gt; alpaka::pow </td>
+          <td class="memname">constexpr <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto alpaka::pow </td>
           <td>(</td>
           <td class="paramtype">T const &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -7143,7 +7170,7 @@ template&lt;typename T , typename U &gt; </div>
 
 <p><a class="el" href="classalpaka_1_1Complex.html" title="Implementation of a complex number useable on host and device.">Complex</a> power of a real number. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00520">520</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00523">523</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -7271,7 +7298,7 @@ template&lt;typename T &gt; </div>
 
 <p>Projection onto the Riemann sphere. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00528">528</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00531">531</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -7639,7 +7666,7 @@ template&lt;typename T &gt; </div>
 
 <p>Sine. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00536">536</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00539">539</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -7671,7 +7698,7 @@ template&lt;typename T &gt; </div>
 
 <p>Hyperbolic sine. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00544">544</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00547">547</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -7703,7 +7730,7 @@ template&lt;typename T &gt; </div>
 
 <p>Square root. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00552">552</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00555">555</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -7998,7 +8025,7 @@ template&lt;typename T &gt; </div>
 
 <p>Tangent. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00560">560</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00563">563</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -8030,7 +8057,7 @@ template&lt;typename T &gt; </div>
 
 <p>Hyperbolic tangent. </p>
 
-<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00568">568</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Complex_8hpp_source.html#l00571">571</a> of file <a class="el" href="Complex_8hpp_source.html">Complex.hpp</a>.</p>
 
 </div>
 </div>
@@ -8268,7 +8295,7 @@ template&lt;typename T , typename U &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacealpaka.html">alpaka</a></li>
-    <li class="footer">Generated on Fri May 20 2022 09:07:22 for alpaka by
+    <li class="footer">Generated on Wed Jun 15 2022 08:04:48 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
