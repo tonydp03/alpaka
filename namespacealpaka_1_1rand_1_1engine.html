@@ -119,6 +119,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1rand_1_1engine_1_1PhiloxSingle.html">PhiloxSingle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1rand_1_1engine_1_1PhiloxStateless.html">PhiloxStateless</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1rand_1_1engine_1_1PhiloxStatelessKeyedBase.html">PhiloxStatelessKeyedBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1rand_1_1engine_1_1PhiloxStatelessVector.html">PhiloxStatelessVector</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1rand_1_1engine_1_1PhiloxStateSingle.html">PhiloxStateSingle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1rand_1_1engine_1_1PhiloxStateVector.html">PhiloxStateVector</a></td></tr>
@@ -174,9 +180,9 @@ template&lt;typename TRand &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A default random number generator engine. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A default random number generator engine. Its type is guaranteed to be trivially copyable. Except HIP accelerator for HIP versions below 5.2 as its internal state was not trivially copyable. The limitation was discussed in PR #1778. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rand_2Traits_8hpp_source.html#l00089">89</a> of file <a class="el" href="rand_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rand_2Traits_8hpp_source.html#l00091">91</a> of file <a class="el" href="rand_2Traits_8hpp_source.html">Traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -186,7 +192,7 @@ template&lt;typename TRand &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacealpaka.html">alpaka</a></li><li class="navelem"><a class="el" href="namespacealpaka_1_1rand.html">rand</a></li><li class="navelem"><a class="el" href="namespacealpaka_1_1rand_1_1engine.html">engine</a></li>
-    <li class="footer">Generated on Mon Aug 15 2022 12:16:48 for alpaka by
+    <li class="footer">Generated on Mon Oct 10 2022 12:45:35 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
